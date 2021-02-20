@@ -41,3 +41,16 @@ body {
 
 .masthead__section__logoimage {
   width: 50%; }
+
+.section__screenmockup__image {
+  width: 80%;
+  margin-inline-start: 10%;
+  margin-inline-end: 10%;
+  margin-block-start: calc(1rem * 4); }
+
+.section__screenmockup__article {
+  display: flex;
+  justify-content: space-between;
+  margin-inline-start: 20%;
+  margin-inline-end: 20%;
+  margin-block-start: 5%; }
