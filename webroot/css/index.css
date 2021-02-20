@@ -48,9 +48,25 @@ body {
   margin-inline-end: 10%;
   margin-block-start: calc(1rem * 4); }
 
+.section__together__image {
+  width: 50%; }
+
 .section__screenmockup__article {
   display: flex;
   justify-content: space-between;
   margin-inline-start: 20%;
   margin-inline-end: 20%;
+  margin-block-start: 5%; }
+
+.section__together {
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100%;
+  background-position: top, bottom;
+  display: flex;
+  margin-inline-start: 10%;
+  margin-inline-end: 10%;
+  margin-block-start: 5%; }
+
+.section__together__text {
+  margin-inline-end: 10%;
   margin-block-start: 5%; }

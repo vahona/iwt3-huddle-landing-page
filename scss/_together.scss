@@ -1,0 +1,17 @@
+.section__together {
+    // background-image: url('../images/bg-section-top-mobile-2.svg'),
+    // url('../images/bg-section-bottom-mobile-2.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100%;
+    background-position: top, bottom;
+    display: flex;
+    margin-inline-start: 10%;
+    margin-inline-end: 10%;
+    margin-block-start: 5%;
+
+}
+
+.section__together__text {
+    margin-inline-end: 10%;
+    margin-block-start: 5%;
+}
