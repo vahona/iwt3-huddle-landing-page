@@ -64,7 +64,7 @@
 @media(max-width: 400px) {
     .footer {
     background-image: url('../images/bg-footer-top-mobile.svg');
-     padding-top: 60% ;
+     padding-top: 50% ;
  
 }
 
@@ -72,7 +72,8 @@
 
 @media(max-width: 300px) {
     .footer {
-     padding-top: 30% ;
+        background-image: url('../images/bg-footer-top-mobile.svg');
+        padding-top: 30% ;
  
 }
 

@@ -1,10 +1,10 @@
 body {
   padding: 0;
+  margin: 0;
   max-width: 1440px;
   max-height: 2724px;
   margin-inline-start: auto;
-  margin-inline-end: auto;
-  margin: 0; }
+  margin-inline-end: auto; }
 
 .masthead__section {
   display: flex;
@@ -144,10 +144,11 @@ body {
 @media (max-width: 400px) {
   .footer {
     background-image: url("../images/bg-footer-top-mobile.svg");
-    padding-top: 60%; } }
+    padding-top: 50%; } }
 
 @media (max-width: 300px) {
   .footer {
+    background-image: url("../images/bg-footer-top-mobile.svg");
     padding-top: 30%; } }
 
 .footer__sectionform__title {
