@@ -1,0 +1,16 @@
+.section__community {
+    // @include alignetext
+    text-align: center;
+
+    &__button {
+        border: 1px solid rgb(255,20,147);
+        border-radius: $border-radius;
+        background-color: rgb(255,20,147) ;
+        color: white;
+        padding-left: calc(#{$padding-left} * 2.5);
+        padding-right: calc(#{$padding-right} * 2.5);
+        padding-top: $padding-top;
+        padding-bottom: $padding-bottom;
+    } 
+}
+
