@@ -100,3 +100,29 @@ body {
     padding-right: calc(1rem * 2.5);
     padding-top: 1rem;
     padding-bottom: 1rem; }
+
+.footer {
+  background-image: url("../images/bg-footer-top-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0px 20%;
+  color: white;
+  padding-top: 15%; }
+  .footer__sectionform {
+    background-color: #00252E; }
+  .footer__sectioncontact {
+    background-color: #00252E;
+    margin-bottom: -2rem; }
+
+.attribution {
+  margin-bottom: 0; }
+
+@media (max-width: 600px) {
+  .footer {
+    background-image: url("../images/bg-footer-top-desktop.svg");
+    padding-top: 25%; } }
+
+@media (max-width: 400px) {
+  .footer {
+    background-image: url("../images/bg-footer-top-mobile.svg");
+    padding-top: 38%; } }
