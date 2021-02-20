@@ -1,4 +1,5 @@
-.masthead__section__logoimage {
+.masthead__section__logoimage,
+.footer__sectioncontact__logoimage {
     width: 50%;
 }
 
@@ -12,6 +13,11 @@
 .section__together__image,
 .section__conversation__image,
 .section__user__image  {
-    width: 50%;
+    width: 100%;
+}
+
+.footer__sectioncontact__logoimage {
+    width: 30%;
+    padding-top: calc(#{$padding-top} * 3);
 }
 

@@ -39,7 +39,8 @@ body {
   padding-top: 1rem;
   padding-bottom: 1rem; }
 
-.masthead__section__logoimage {
+.masthead__section__logoimage,
+.footer__sectioncontact__logoimage {
   width: 50%; }
 
 .section__screenmockup__image {
@@ -51,7 +52,11 @@ body {
 .section__together__image,
 .section__conversation__image,
 .section__user__image {
-  width: 50%; }
+  width: 100%; }
+
+.footer__sectioncontact__logoimage {
+  width: 30%;
+  padding-top: calc(1rem * 3); }
 
 .section__screenmockup__article {
   display: flex;
@@ -64,7 +69,6 @@ body {
   background-repeat: no-repeat, no-repeat;
   background-size: 100%;
   background-position: top, bottom;
-  display: flex;
   margin-inline-start: 10%;
   margin-inline-end: 10%;
   margin-block-start: 5%; }
@@ -74,7 +78,6 @@ body {
   margin-block-start: 5%; }
 
 .section__conversation {
-  display: flex;
   margin-block-start: 10%;
   margin-inline-start: 5%; }
   .section__conversation__text {
@@ -82,7 +85,6 @@ body {
     margin-block-start: 10%; }
 
 .section__user {
-  display: flex;
   margin-block-start: 10%;
   margin-inline-end: 10%; }
   .section__user__text {
@@ -110,12 +112,29 @@ body {
   padding-top: 15%; }
   .footer__sectionform {
     background-color: #00252E; }
+    .footer__sectionform__container {
+      margin-inline-start: 5%; }
+    .footer__sectionform__button {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      border-radius: calc(30px / 2);
+      background-color: deeppink;
+      color: white;
+      padding-left: calc(1rem * 2.5);
+      padding-right: calc(1rem * 2.5);
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      border: none; }
+    .footer__sectionform__input {
+      padding-top: 1rem;
+      padding-bottom: 1rem; }
   .footer__sectioncontact {
     background-color: #00252E;
     margin-bottom: -2rem; }
 
 .attribution {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  padding-bottom: calc(1rem * 2); }
 
 @media (max-width: 600px) {
   .footer {
@@ -125,4 +144,11 @@ body {
 @media (max-width: 400px) {
   .footer {
     background-image: url("../images/bg-footer-top-mobile.svg");
-    padding-top: 38%; } }
+    padding-top: 60%; } }
+
+@media (max-width: 300px) {
+  .footer {
+    padding-top: 30%; } }
+
+.footer__sectionform__title {
+  padding-top: calc(1rem * 3); }

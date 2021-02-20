@@ -10,8 +10,32 @@
 
     &__sectionform {
    background-color: #00252E;
-    
-}
+   
+     &__container {
+         margin-inline-start: 5%;
+     }
+
+     &__button {
+        margin-top: $margin-top;
+        margin-bottom: $margin-bottom;
+        border-radius: calc(#{$border-radius} / 2);
+        background-color:  rgb(255,20,147) ;
+        color: white;
+        padding-left: calc(#{$padding-left} * 2.5);
+        padding-right: calc(#{$padding-right} * 2.5);
+        padding-top: $padding-top;
+        padding-bottom: $padding-bottom;
+        border: none;
+     }
+
+     
+     &__input {
+        padding-top: $padding-top;
+        padding-bottom: $padding-bottom;
+     }
+     
+  }
+
 
    &__sectioncontact {
         background-color:#00252E;
@@ -21,8 +45,11 @@
    }
 }
 
+
+
 .attribution {
     margin-bottom: 0;
+    padding-bottom: calc(#{$padding-bottom} * 2);
 }
 
 @media(max-width: 600px) {
@@ -37,10 +64,23 @@
 @media(max-width: 400px) {
     .footer {
     background-image: url('../images/bg-footer-top-mobile.svg');
-     padding-top: 38% ;
+     padding-top: 60% ;
  
 }
 
 }
+
+@media(max-width: 300px) {
+    .footer {
+     padding-top: 30% ;
+ 
+}
+
+}
+
+.footer__sectionform__title {
+    padding-top: calc(#{$padding-top} * 3);
+}
+
 
 
