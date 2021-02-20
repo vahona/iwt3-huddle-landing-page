@@ -1,0 +1,39 @@
+
+.masthead__section {
+    display: flex;
+    justify-content: space-between;
+    margin-inline-start: $margin-inline-start;
+    margin-inline-end: $margin-inline-end;
+}
+
+.header__section {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.masthead__section__button {
+    margin-top: $margin-top;
+    margin-bottom: $margin-bottom;
+    border: 1px solid rgb(255,20,147);
+    border-radius: $border-radius;
+    background-color: white;
+    color: rgb(255,20,147) ;
+}
+
+.header__section__text {
+  margin-inline-start: 25%;
+  margin-inline-end: 25%;
+}
+
+.header__section__statedbutton {
+    border: 1px solid rgb(255,20,147);
+    border-radius: $border-radius;
+    background-color: rgb(255,20,147) ;
+    color: white;
+    padding-left: calc(#{$padding-left} * 2.5);
+    padding-right: calc(#{$padding-right} * 2.5);
+    padding-top: $padding-top;
+    padding-bottom: $padding-bottom;
+    
+}

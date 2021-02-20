@@ -1,0 +1,43 @@
+body {
+  padding: 0;
+  max-width: 1440px;
+  max-height: 2724px;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  margin: 0; }
+
+.masthead__section {
+  display: flex;
+  justify-content: space-between;
+  margin-inline-start: 1rem;
+  margin-inline-end: 1rem; }
+
+.header__section {
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
+
+.masthead__section__button {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid deeppink;
+  border-radius: 30px;
+  background-color: white;
+  color: deeppink; }
+
+.header__section__text {
+  margin-inline-start: 25%;
+  margin-inline-end: 25%; }
+
+.header__section__statedbutton {
+  border: 1px solid deeppink;
+  border-radius: 30px;
+  background-color: deeppink;
+  color: white;
+  padding-left: calc(1rem * 2.5);
+  padding-right: calc(1rem * 2.5);
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+
+.masthead__section__logoimage {
+  width: 50%; }
