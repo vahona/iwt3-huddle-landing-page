@@ -1,0 +1,10 @@
+.section__conversation {
+    display: flex;
+    margin-block-start: 10%;
+    margin-inline-start: 5%;
+
+    &__text {
+        margin-inline-start: 7%;
+        margin-block-start: 10%;
+    }
+}

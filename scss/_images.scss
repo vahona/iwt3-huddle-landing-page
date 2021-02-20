@@ -9,6 +9,8 @@
     margin-block-start: calc(#{$margin-block-start} * 4);
 }
 
-.section__together__image {
+.section__together__image,
+.section__conversation__image  {
     width: 50%;
 }
+

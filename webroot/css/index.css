@@ -48,7 +48,8 @@ body {
   margin-inline-end: 10%;
   margin-block-start: calc(1rem * 4); }
 
-.section__together__image {
+.section__together__image,
+.section__conversation__image {
   width: 50%; }
 
 .section__screenmockup__article {
@@ -70,3 +71,11 @@ body {
 .section__together__text {
   margin-inline-end: 10%;
   margin-block-start: 5%; }
+
+.section__conversation {
+  display: flex;
+  margin-block-start: 10%;
+  margin-inline-start: 5%; }
+  .section__conversation__text {
+    margin-inline-start: 7%;
+    margin-block-start: 10%; }
