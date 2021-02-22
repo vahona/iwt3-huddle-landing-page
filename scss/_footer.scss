@@ -26,6 +26,7 @@
         padding-top: $padding-top;
         padding-bottom: $padding-bottom;
         border: none;
+        margin-inline-start: 40%;
      }
 
      
@@ -40,16 +41,67 @@
    &__sectioncontact {
         background-color:#00252E;
         margin-bottom: -2rem;
-        
+
+         &__link {
+            text-decoration: none;
+            color: white;
+            margin-inline-start: 5%;
+         }
+
+         &__icon {
+             margin-inline-start: 10%;
+         }
+         &__paragraph {
+             margin-inline-start: 10%;
+         }
+
+         &__logoimage {
+             margin-inline-start: 10%;
+         }
+
+         &__container {
+             margin-top: $margin-top;
+         }
 
    }
+
+   &__navigation__list {
+       list-style: $list-style;
+       display: flex;
+   }
+
+   &__navigation__list--anchore {
+        text-indent: -9999px;
+        display: inline-block;
+   }
+
+   &__navigation__list {
+       padding-inline-start: 0;
+       margin-inline-start: 10%;
+   }
+
+   &__navigation__list--anchore {
+       margin-right: $margin-right;
+   }
+
+  
 }
 
+
+
+
+
+
+.name {
+    text-decoration: none;
+    color: white;
+}
 
 
 .attribution {
     margin-bottom: 0;
     padding-bottom: calc(#{$padding-bottom} * 2);
+    margin-inline-start: 10%;
 }
 
 @media(max-width: 600px) {
@@ -81,6 +133,30 @@
 
 .footer__sectionform__title {
     padding-top: calc(#{$padding-top} * 3);
+}
+
+.footer__sectionform__input {
+    width: 80%;
+    margin-inline-end: 10%;
+}
+
+.facebook {
+    background-image: url("../images/icon-facebook.svg");
+    background-repeat: no-repeat;
+    padding: $padding;
+}
+
+.histogram {
+    background-image: url("../images/icon-instagram.svg");
+    background-repeat: no-repeat;
+    padding: $padding;
+}
+
+.twitter {
+    background-image: url("../images/icon-twitter.svg");
+    background-repeat: no-repeat;
+    padding: $padding;
+
 }
 
 
