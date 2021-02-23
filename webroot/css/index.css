@@ -75,12 +75,11 @@ body {
   background-repeat: no-repeat, no-repeat;
   background-size: 100%;
   background-position: 10% 1%, 50% 100%;
-  margin-inline-start: 10%;
-  margin-inline-end: 10%;
-  padding-block-start: 24%;
-  padding-block-end: 4%; }
+  padding-block-start: 31%;
+  padding-block-end: 10%; }
   .section__together__container {
-    background-color: #F6FBFF; }
+    background-color: #F6FBFF;
+    padding-bottom: 50%; }
 
 .section__together__text {
   margin-inline-end: 10%;
@@ -96,11 +95,19 @@ body {
     margin-block-start: 10%; }
 
 .section__user {
+  background-image: url("../images/bg-section-top-mobile-2.svg"), url("../images/bg-section-bottom-mobile-2.svg");
   margin-block-start: 10%;
-  margin-inline-end: 10%; }
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100%;
+  background-position: 10% 1%, 50% 100%;
+  padding-block-start: 22%;
+  padding-block-end: 26%; }
   .section__user__text {
     margin-inline-start: 7%;
-    margin-block-start: 10%; }
+    margin-block-start: 10%;
+    padding: 1rem; }
+  .section__user__container {
+    background-color: #F6FBFF; }
 
 .section__community {
   text-align: center; }

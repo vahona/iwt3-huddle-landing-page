@@ -1,10 +1,26 @@
 .section__user {
     // display: flex;
+     background-image: url('../images/bg-section-top-mobile-2.svg'),
+    url('../images/bg-section-bottom-mobile-2.svg');
     margin-block-start: 10%;
-    margin-inline-end: 10%;
+    // margin-inline-end: 10%;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100%;
+    background-position: 10% 1%, 50% 100% ;
+    // display: flex;
+    // margin-inline-start: 10%;
+    // margin-inline-end: 10%;
+    // margin-block-start: 20%;
+    padding-block-start: 22%;
+    padding-block-end: 26%;
 
     &__text {
         margin-inline-start: 7%;
         margin-block-start: 10%;
+        padding: $padding;
+    }
+
+    &__container {
+        background-color: #F6FBFF ;
     }
 }
