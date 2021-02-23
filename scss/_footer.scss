@@ -4,18 +4,18 @@
     background-size: contain;
     background-position: 0px 20%;
     color: white;
-    padding-top: 15% ;
+    padding-top: 20% ;
   
 // calc(#{$padding-top} * 10)
 
     &__sectionform {
    background-color: #00252E;
    
-     &__container {
+    &__container {
          margin-inline-start: 5%;
      }
 
-     &__button {
+    &__button {
         margin-top: $margin-top;
         margin-bottom: $margin-bottom;
         border-radius: calc(#{$border-radius} / 2);
@@ -30,7 +30,7 @@
      }
 
      
-     &__input {
+    &__input {
         padding-top: $padding-top;
         padding-bottom: $padding-bottom;
      }
@@ -38,28 +38,28 @@
   }
 
 
-   &__sectioncontact {
+    &__sectioncontact {
         background-color:#00252E;
         margin-bottom: -2rem;
 
-         &__link {
+        &__link {
             text-decoration: none;
             color: white;
             margin-inline-start: 5%;
          }
 
-         &__icon {
+        &__icon {
              margin-inline-start: 10%;
          }
-         &__paragraph {
-             margin-inline-start: 10%;
-         }
-
-         &__logoimage {
+        &__paragraph {
              margin-inline-start: 10%;
          }
 
-         &__container {
+        &__logoimage {
+             margin-inline-start: 10%;
+         }
+
+        &__container {
              margin-top: $margin-top;
          }
 
@@ -86,10 +86,6 @@
 
   
 }
-
-
-
-
 
 
 .name {

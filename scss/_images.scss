@@ -21,3 +21,10 @@
     padding-top: calc(#{$padding-top} * 3);
 }
 
+@media(min-width: 1000px) {
+    .footer__sectioncontact__logoimage {
+        width: 20%;
+        padding-top: calc(#{$padding-top} * 3);
+}
+}
+

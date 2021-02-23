@@ -1,17 +1,27 @@
 .section__together {
-    // background-image: url('../images/bg-section-top-mobile-2.svg'),
-    // url('../images/bg-section-bottom-mobile-2.svg');
+    background-image: url('../images/bg-section-top-mobile-1.svg'),
+    url('../images/bg-section-bottom-mobile-1.svg');
     background-repeat: no-repeat, no-repeat;
     background-size: 100%;
-    background-position: top, bottom;
+    background-position: 10% 1%, 50% 100% ;
     // display: flex;
     margin-inline-start: 10%;
     margin-inline-end: 10%;
-    margin-block-start: 5%;
+    // margin-block-start: 20%;
+    padding-block-start: 24%;
+     padding-block-end: 4%;
+    // background-color: #F6FBFF;
+
+
+    &__container {
+        background-color: #F6FBFF ;
+    }
 
 }
 
 .section__together__text {
     margin-inline-end: 10%;
     margin-block-start: 5%;
+    margin-block-end: 3rem;
+    padding: $padding;
 }
