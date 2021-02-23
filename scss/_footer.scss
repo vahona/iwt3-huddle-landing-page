@@ -2,14 +2,16 @@
     background-image: url('../images/bg-footer-top-desktop.svg');
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: 0px 20%;
+    background-position: 0px 21%;
     color: white;
-    padding-top: 20% ;
+    // padding-top: 20% ;
+    padding-block-start: 33%;
+    // padding-block-end: 26%;
   
-// calc(#{$padding-top} * 10)
+
 
     &__sectionform {
-   background-color: #00252E;
+
    
     &__container {
          margin-inline-start: 5%;
@@ -39,7 +41,7 @@
 
 
     &__sectioncontact {
-        background-color:#00252E;
+        
         margin-bottom: -2rem;
 
         &__link {
@@ -100,32 +102,32 @@
     margin-inline-start: 10%;
 }
 
-@media(max-width: 600px) {
-    .footer {
-    background-image: url('../images/bg-footer-top-desktop.svg');
-     padding-top: 25% ;
+// @media(max-width: 600px) {
+//     .footer {
+//     background-image: url('../images/bg-footer-top-desktop.svg');
+//      padding-top: 25% ;
  
-}
+// }
 
-}
+// }
 
-@media(max-width: 400px) {
-    .footer {
-    background-image: url('../images/bg-footer-top-mobile.svg');
-     padding-top: 50% ;
+// @media(max-width: 400px) {
+//     .footer {
+//     background-image: url('../images/bg-footer-top-mobile.svg');
+//      padding-top: 50% ;
  
-}
+// }
 
-}
+// }
 
-@media(max-width: 300px) {
-    .footer {
-        background-image: url('../images/bg-footer-top-mobile.svg');
-        padding-top: 30% ;
+// @media(max-width: 300px) {
+//     .footer {
+//         background-image: url('../images/bg-footer-top-mobile.svg');
+//         padding-top: 30% ;
  
-}
+// }
 
-}
+// }
 
 .footer__sectionform__title {
     padding-top: calc(#{$padding-top} * 3);
@@ -155,5 +157,9 @@
 
 }
 
+ .footer__bigcontainer {
+        background-color: #00252E;
+        padding-top: 5%;
+ }
 
 
