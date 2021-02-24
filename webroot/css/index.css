@@ -250,3 +250,12 @@ body {
 .footer__bigcontainer {
   background-color: #00252E;
   padding-top: 5%; }
+
+@media (min-width: 800px) {
+  .footer__sectioncontact {
+    margin-inline-end: 70%;
+    margin-top: -20%; }
+  .footer__sectionform {
+    margin-inline-start: 60%; }
+  .footer {
+    padding-block-start: 25%; } }
