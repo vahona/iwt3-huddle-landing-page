@@ -20,3 +20,15 @@
         background-color: #F6FBFF ;
     }
 }
+
+@media(min-width: 800px) {
+    .section__user__text {
+        // margin-inline-start: 60%;
+        // text-align: start;
+        // margin-top: -30%;
+    }
+
+    .section__user {
+        margin-top: 30%;
+    }
+}

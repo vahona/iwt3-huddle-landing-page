@@ -118,6 +118,12 @@ body {
     margin-block-start: 10%;
     text-align: center; }
 
+@media (min-width: 800px) {
+  .section__conversation__text {
+    margin-inline-start: 60%;
+    text-align: start;
+    margin-top: -30%; } }
+
 .section__user {
   background-image: url("../images/bg-section-top-mobile-2.svg"), url("../images/bg-section-bottom-mobile-2.svg");
   margin-block-start: 10%;
@@ -133,6 +139,10 @@ body {
     text-align: center; }
   .section__user__container {
     background-color: #F6FBFF; }
+
+@media (min-width: 800px) {
+  .section__user {
+    margin-top: 30%; } }
 
 .section__community {
   text-align: center; }

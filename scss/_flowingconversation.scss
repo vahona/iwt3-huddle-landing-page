@@ -10,3 +10,11 @@
         text-align: center;
     }
 }
+
+@media(min-width: 800px) {
+    .section__conversation__text {
+        margin-inline-start: 60%;
+        text-align: start;
+        margin-top: -30%;
+    }
+}
