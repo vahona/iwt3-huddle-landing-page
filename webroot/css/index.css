@@ -85,14 +85,16 @@ body {
   margin-inline-end: 10%;
   margin-block-start: 5%;
   margin-block-end: 3rem;
-  padding: 1rem; }
+  padding: 1rem;
+  text-align: center; }
 
 .section__conversation {
   margin-block-start: 10%;
   margin-inline-start: 5%; }
   .section__conversation__text {
     margin-inline-start: 7%;
-    margin-block-start: 10%; }
+    margin-block-start: 10%;
+    text-align: center; }
 
 .section__user {
   background-image: url("../images/bg-section-top-mobile-2.svg"), url("../images/bg-section-bottom-mobile-2.svg");
@@ -105,7 +107,8 @@ body {
   .section__user__text {
     margin-inline-start: 7%;
     margin-block-start: 10%;
-    padding: 1rem; }
+    padding: 1rem;
+    text-align: center; }
   .section__user__container {
     background-color: #F6FBFF; }
 
