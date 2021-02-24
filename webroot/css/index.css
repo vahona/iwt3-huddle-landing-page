@@ -79,7 +79,7 @@ body {
   padding-block-end: 10%; }
   .section__together__container {
     background-color: #F6FBFF;
-    padding-bottom: 50%; }
+    padding-bottom: 5%; }
 
 .section__together__text {
   margin-inline-end: 10%;
@@ -101,8 +101,8 @@ body {
   margin-block-start: 10%;
   background-repeat: no-repeat, no-repeat;
   background-size: 100%;
-  background-position: 10% 1%, 50% 100%;
-  padding-block-start: 22%;
+  background-position: 10% 2%, 50% 100%;
+  padding-block-start: 29%;
   padding-block-end: 26%; }
   .section__user__text {
     margin-inline-start: 7%;
@@ -127,8 +127,8 @@ body {
 .footer {
   background-image: url("../images/bg-footer-top-desktop.svg");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 0px 21%;
+  background-size: 100%;
+  background-position: 0% 32%;
   color: white;
   padding-block-start: 33%; }
   .footer__sectionform__container {
