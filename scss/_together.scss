@@ -13,14 +13,44 @@
         padding-bottom: 5%;
     }
 
-    
-
-}
-
-.section__together__text {
+    &__text {
     margin-inline-end: 10%;
     margin-block-start: 5%;
     margin-block-end: 3rem;
     padding: $padding;
     text-align: center;
+
+    }
+
 }
+
+@media(min-width: 800px) {
+
+
+    .section__together {
+    background-image: url('../images/bg-section-top-mobile-1.svg'),
+    url('../images/bg-section-bottom-mobile-1.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100%;
+    background-position: 10% 1%, 50% 100% ;
+    padding-block-start: 30%;
+    padding-block-end: 10%;
+
+    }
+
+    .section__together__container {
+       
+    }
+
+     .section__together__text {
+      margin-block-end: 20%;
+      margin-inline-end: 60%;
+      margin-top: -30%;
+    }
+
+    .section__together__text {
+    text-align: start;
+
+    }
+}
+
