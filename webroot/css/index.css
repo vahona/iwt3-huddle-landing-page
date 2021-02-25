@@ -302,4 +302,11 @@ body {
     background-size: 100%;
     background-position: 0% 17%;
     color: white;
-    padding-block-start: 18%; } }
+    padding-block-start: 18%; }
+  .footer__sectionform__submit {
+    display: flex; }
+  .footer__sectionform__button {
+    margin-inline-start: 0; }
+  .footer__sectionform__input {
+    margin-bottom: 1rem;
+    margin-top: 1rem; } }

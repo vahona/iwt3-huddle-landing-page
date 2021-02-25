@@ -168,6 +168,19 @@
 
     }
 
+    .footer__sectionform__submit {
+        display: flex;
+    }
+
+    .footer__sectionform__button {
+        margin-inline-start: 0;
+      }
+
+    .footer__sectionform__input {
+        margin-bottom: $margin-bottom;
+        margin-top: $margin-top;
+    }
+
  }
 
 
