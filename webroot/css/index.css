@@ -254,9 +254,11 @@ body {
 
 @media (min-width: 800px) {
   .footer__sectioncontact {
-    margin-inline-end: 70%;
-    margin-top: -20%; }
+    margin-inline-end: 60%;
+    margin-top: -20%;
+    margin-inline-start: 5%; }
   .footer__sectionform {
-    margin-inline-start: 60%; }
+    margin-inline-start: 60%;
+    margin-inline-end: 5%; }
   .footer {
     padding-block-start: 25%; } }
