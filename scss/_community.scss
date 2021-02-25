@@ -13,5 +13,14 @@
         padding-bottom: $padding-bottom;
         cursor: pointer;
     } 
+
+    &__button:hover {
+       box-shadow: 5px 10px 10px rgb(175, 174, 174);
+       background-color:  hsl(321, 100%, 78%);
+       border: 1px solid hsl(321, 100%, 78%);
+    }
 }
+
+
+
 

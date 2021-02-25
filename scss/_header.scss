@@ -22,6 +22,10 @@
     cursor: pointer;
 }
 
+.masthead__section__button:hover {
+    opacity: 0.5;
+}
+
 .header__section__text {
   margin-inline-start: 25%;
   margin-inline-end: 25%;
@@ -39,4 +43,11 @@
     cursor: pointer;
     
 }
+
+.header__section__statedbutton:hover {
+  box-shadow: 5px 10px 10px rgb(175, 174, 174);
+  background-color:  hsl(321, 100%, 78%);
+  border: 1px solid hsl(321, 100%, 78%);
+}
+
 
