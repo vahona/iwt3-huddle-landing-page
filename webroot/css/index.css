@@ -201,12 +201,12 @@ body {
     cursor: pointer; }
 
 .footer {
-  background-image: url("../images/bg-footer-top-desktop.svg");
+  background-image: url("../images/bg-footer-top-mobile.svg");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: 0% 32%;
+  background-position: 0% 15%;
   color: white;
-  padding-block-start: 33%; }
+  padding-block-start: 30%; }
   .footer__sectionform__container {
     margin-inline-start: 5%; }
   .footer__sectionform__button {
@@ -295,4 +295,11 @@ body {
     margin-inline-start: 60%;
     margin-inline-end: 5%; }
   .footer {
-    padding-block-start: 25%; } }
+    padding-block-start: 25%; }
+  .footer {
+    background-image: url("../images/bg-footer-top-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0% 17%;
+    color: white;
+    padding-block-start: 18%; } }
