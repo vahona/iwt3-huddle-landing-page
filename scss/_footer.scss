@@ -29,6 +29,7 @@
         padding-bottom: $padding-bottom;
         border: none;
         margin-inline-start: 40%;
+        cursor: pointer;
      }
 
      
@@ -102,32 +103,6 @@
     margin-inline-start: 10%;
 }
 
-// @media(max-width: 600px) {
-//     .footer {
-//     background-image: url('../images/bg-footer-top-desktop.svg');
-//      padding-top: 25% ;
- 
-// }
-
-// }
-
-// @media(max-width: 400px) {
-//     .footer {
-//     background-image: url('../images/bg-footer-top-mobile.svg');
-//      padding-top: 50% ;
- 
-// }
-
-// }
-
-// @media(max-width: 300px) {
-//     .footer {
-//         background-image: url('../images/bg-footer-top-mobile.svg');
-//         padding-top: 30% ;
- 
-// }
-
-// }
 
 .footer__sectionform__title {
     padding-top: calc(#{$padding-top} * 3);

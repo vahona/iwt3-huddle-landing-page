@@ -19,6 +19,7 @@
     border-radius: $border-radius;
     background-color: white;
     color: hsl(322, 100%, 66%);
+    cursor: pointer;
 }
 
 .header__section__text {
@@ -35,6 +36,7 @@
     padding-right: calc(#{$padding-right} * 2.5);
     padding-top: $padding-top;
     padding-bottom: $padding-bottom;
+    cursor: pointer;
     
 }
 
