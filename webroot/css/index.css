@@ -1,3 +1,29 @@
+.header__section__title,
+.section__screenmockup__article--formsize,
+.section__screenmockup__article--messagesize,
+.section__community__title {
+  font-family: Poppins;
+  font-weight: 700; }
+
+.header__section__text,
+.section__screenmockup__article--form,
+.section__screenmockup__article--message,
+.section__together__paragrath,
+.section__conversation__paragraph,
+.section__user__paragraph,
+.section__community__button,
+.footer__sectionform__paragraph,
+.footer__sectionform__button,
+.footer__sectioncontact {
+  font-family: Open Sans; }
+
+.section__together__title,
+.section__conversation__title,
+.section__user__title,
+.footer__sectionform__title {
+  font-family: Poppins;
+  font-weight: 600; }
+
 body {
   padding: 0;
   margin: 0;
@@ -20,19 +46,19 @@ body {
 .masthead__section__button {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  border: 1px solid deeppink;
+  border: 1px solid #ff52bf;
   border-radius: 30px;
   background-color: white;
-  color: deeppink; }
+  color: #ff52bf; }
 
 .header__section__text {
   margin-inline-start: 25%;
   margin-inline-end: 25%; }
 
 .header__section__statedbutton {
-  border: 1px solid deeppink;
+  border: 1px solid #ff52bf;
   border-radius: 30px;
-  background-color: deeppink;
+  background-color: #ff52bf;
   color: white;
   padding-left: calc(1rem * 2.5);
   padding-right: calc(1rem * 2.5);
@@ -158,9 +184,9 @@ body {
 .section__community {
   text-align: center; }
   .section__community__button {
-    border: 1px solid deeppink;
+    border: 1px solid #ff52bf;
     border-radius: 30px;
-    background-color: deeppink;
+    background-color: #ff52bf;
     color: white;
     padding-left: calc(1rem * 2.5);
     padding-right: calc(1rem * 2.5);
@@ -180,7 +206,7 @@ body {
     margin-top: 1rem;
     margin-bottom: 1rem;
     border-radius: calc(30px / 2);
-    background-color: deeppink;
+    background-color: #ff52bf;
     color: white;
     padding-left: calc(1rem * 2.5);
     padding-right: calc(1rem * 2.5);
