@@ -20,7 +20,7 @@
     &__button {
         margin-top: $margin-top;
         margin-bottom: $margin-bottom;
-        border-radius: calc(#{$border-radius} / 2);
+        border-radius: calc(#{$border-radius} / 3);
         background-color:  hsl(322, 100%, 66%);
         color: white;
         padding-left: calc(#{$padding-left} * 2.5);
@@ -28,7 +28,7 @@
         padding-top: $padding-top;
         padding-bottom: $padding-bottom;
         border: none;
-        margin-inline-start: 40%;
+        margin-inline-start: 50%;
         cursor: pointer;
      }
 

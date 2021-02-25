@@ -212,7 +212,7 @@ body {
   .footer__sectionform__button {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    border-radius: calc(30px / 2);
+    border-radius: calc(30px / 3);
     background-color: #ff52bf;
     color: white;
     padding-left: calc(1rem * 2.5);
@@ -220,7 +220,7 @@ body {
     padding-top: 1rem;
     padding-bottom: 1rem;
     border: none;
-    margin-inline-start: 40%;
+    margin-inline-start: 50%;
     cursor: pointer; }
   .footer__sectionform__input {
     padding-top: 1rem;
